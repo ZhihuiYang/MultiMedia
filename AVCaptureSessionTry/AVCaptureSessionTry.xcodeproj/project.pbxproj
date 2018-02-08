@@ -13,7 +13,7 @@
 		271EAFF5202C2F620013E784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271EAFF4202C2F620013E784 /* Assets.xcassets */; };
 		271EAFF8202C2F620013E784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271EAFF6202C2F620013E784 /* LaunchScreen.storyboard */; };
 		271EAFFB202C2F620013E784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 271EAFFA202C2F620013E784 /* main.m */; };
-		271EB003202C2FDF0013E784 /* CaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 271EB001202C2FDE0013E784 /* CaptureSession.m */; };
+		271EB006202C3ECB0013E784 /* CaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 271EB004202C3ECB0013E784 /* CaptureSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		271EAFF7202C2F620013E784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271EAFF9202C2F620013E784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		271EAFFA202C2F620013E784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		271EB001202C2FDE0013E784 /* CaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaptureSession.m; path = ../../../OpenGLES/LearnOpenGLESYzh/OpenGLESFirst/OpenGLESFirst/CaptureSession.m; sourceTree = "<group>"; };
-		271EB002202C2FDE0013E784 /* CaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaptureSession.h; path = ../../../OpenGLES/LearnOpenGLESYzh/OpenGLESFirst/OpenGLESFirst/CaptureSession.h; sourceTree = "<group>"; };
+		271EB004202C3ECB0013E784 /* CaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSession.m; sourceTree = "<group>"; };
+		271EB005202C3ECB0013E784 /* CaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSession.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		271EAFEA202C2F620013E784 /* AVCaptureSessionTry */ = {
 			isa = PBXGroup;
 			children = (
-				271EB002202C2FDE0013E784 /* CaptureSession.h */,
-				271EB001202C2FDE0013E784 /* CaptureSession.m */,
+				271EB005202C3ECB0013E784 /* CaptureSession.h */,
+				271EB004202C3ECB0013E784 /* CaptureSession.m */,
 				271EAFEB202C2F620013E784 /* AppDelegate.h */,
 				271EAFEC202C2F620013E784 /* AppDelegate.m */,
 				271EAFEE202C2F620013E784 /* ViewController.h */,
@@ -150,7 +150,7 @@
 				271EAFF0202C2F620013E784 /* ViewController.m in Sources */,
 				271EAFFB202C2F620013E784 /* main.m in Sources */,
 				271EAFED202C2F620013E784 /* AppDelegate.m in Sources */,
-				271EB003202C2FDF0013E784 /* CaptureSession.m in Sources */,
+				271EB006202C3ECB0013E784 /* CaptureSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
