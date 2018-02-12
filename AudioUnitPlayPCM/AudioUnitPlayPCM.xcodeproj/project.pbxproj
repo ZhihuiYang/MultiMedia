@@ -63,7 +63,7 @@
 		271EB05F203155E30013E784 /* AudioUnitPlayPCM */ = {
 			isa = PBXGroup;
 			children = (
-				271EB079203157F40013E784 /* Sources */,
+				271EB079203157F40013E784 /* resources */,
 				271EB0772031569E0013E784 /* MyAudioUintPlayback.h */,
 				271EB0762031569E0013E784 /* MyAudioUintPlayback.m */,
 				271EB060203155E30013E784 /* AppDelegate.h */,
@@ -79,12 +79,12 @@
 			path = AudioUnitPlayPCM;
 			sourceTree = "<group>";
 		};
-		271EB079203157F40013E784 /* Sources */ = {
+		271EB079203157F40013E784 /* resources */ = {
 			isa = PBXGroup;
 			children = (
 				271EB07A2031587C0013E784 /* audio.pcm */,
 			);
-			path = Sources;
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
