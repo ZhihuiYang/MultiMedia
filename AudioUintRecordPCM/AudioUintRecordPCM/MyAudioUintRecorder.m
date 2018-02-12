@@ -37,7 +37,9 @@
 }
 
 - (void)dealloc{
+    AudioOutputUnitStop(audiounit);
     AudioUnitUninitialize(audiounit);
+    AudioComponentInstanceDispose(audiounit);
     fclose(file);
 }
 
